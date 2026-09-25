@@ -1,0 +1,46 @@
+[
+    {
+        "emoji": "❄️",
+        "canonical_name": "cocaine",
+        "category": "stimulant",
+        "aliases": [
+            "snow",
+            "flake"
+        ]
+    },
+    {
+        "emoji": "🍁",
+        "canonical_name": "marijuana",
+        "category": "cannabis",
+        "aliases": [
+            "weed",
+            "pot"
+        ]
+    },
+    {
+        "emoji": "🌿",
+        "canonical_name": "marijuana",
+        "category": "cannabis",
+        "aliases": [
+            "grass",
+            "herb"
+        ]
+    },
+    {
+        "emoji": "💊",
+        "canonical_name": "mdma",
+        "category": "synthetic",
+        "aliases": [
+            "pill",
+            "ecstasy"
+        ]
+    },
+    {
+        "emoji": "🍄",
+        "canonical_name": "psilocybin",
+        "category": "psychedelic",
+        "aliases": [
+            "shrooms"
+        ]
+    }
+]

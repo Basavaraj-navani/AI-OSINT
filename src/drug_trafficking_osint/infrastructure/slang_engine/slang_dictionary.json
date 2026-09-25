@@ -1,0 +1,59 @@
+[
+  {
+    "canonical_name": "cocaine",
+    "aliases": [
+      "coke",
+      "snow",
+      "blow",
+      "white"
+    ],
+    "hashtags": [
+      "#coke",
+      "#snow"
+    ],
+    "category": "stimulant",
+    "risk_weight": 0.95
+  },
+  {
+    "canonical_name": "marijuana",
+    "aliases": [
+      "weed",
+      "pot",
+      "ganja",
+      "grass"
+    ],
+    "hashtags": [
+      "#weed",
+      "#420"
+    ],
+    "category": "cannabis",
+    "risk_weight": 0.70
+  },
+  {
+    "canonical_name": "methamphetamine",
+    "aliases": [
+      "meth",
+      "ice",
+      "crystal"
+    ],
+    "hashtags": [
+      "#meth",
+      "#ice"
+    ],
+    "category": "stimulant",
+    "risk_weight": 0.98
+  },
+  {
+    "canonical_name": "heroin",
+    "aliases": [
+      "smack",
+      "horse",
+      "brown sugar"
+    ],
+    "hashtags": [
+      "#smack"
+    ],
+    "category": "opioid",
+    "risk_weight": 0.99
+  }
+]

@@ -1,0 +1,51 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pycode
+*.egg-info/
+.mypy_cache/
+
+# VS Code
+.vscode/
+.commandcode/
+
+# Test cache
+.pytest_cache/
+.coverage*
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# Logs
+*.log
+
+# SQLite database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build artifacts
+dist/
+build/
+data/
+exports/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+*.session*
+sessions/
+datasets/
+.huggingface/
+.cache/

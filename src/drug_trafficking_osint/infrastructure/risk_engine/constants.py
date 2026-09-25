@@ -1,0 +1,22 @@
+"""
+Risk Engine Constants
+"""
+
+from __future__ import annotations
+
+# Risk Labels
+LOW_RISK = "LOW_RISK"
+MEDIUM_RISK = "MEDIUM_RISK"
+HIGH_RISK = "HIGH_RISK"
+
+# Risk Thresholds
+LOW_THRESHOLD = 0.30
+MEDIUM_THRESHOLD = 0.60
+HIGH_THRESHOLD = 0.80
+
+# Component Weights
+CLASSIFIER_WEIGHT = 0.40
+SLANG_WEIGHT = 0.20
+EMOJI_WEIGHT = 0.15
+NER_WEIGHT = 0.15
+BEHAVIOUR_WEIGHT = 0.10

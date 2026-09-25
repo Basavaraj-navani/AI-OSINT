@@ -1,0 +1,21 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      OSINT_ENVIRONMENT: ${OSINT_ENVIRONMENT:-development}
+      OSINT_LOG_LEVEL: ${OSINT_LOG_LEVEL:-INFO}
+      OSINT_LOG_FORMAT: ${OSINT_LOG_FORMAT:-console}
+      OSINT_SERVICE_NAME: ${OSINT_SERVICE_NAME:-drug-trafficking-osint}
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - osint-data:/app/data
+    init: true
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+
+volumes:
+  osint-data:
