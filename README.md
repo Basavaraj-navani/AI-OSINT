@@ -25,7 +25,7 @@ The DistilBERT checkpoint is a general English sentiment model used as a prototy
 ## Run locally
 
 ```bash
-git clone <private-repository-url>
+git clone https://github.com/Basavaraj-navani/AI-OSINT.git
 cd AI-OSINT
 uv sync
 uv run osint-api
